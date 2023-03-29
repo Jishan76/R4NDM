@@ -51,8 +51,7 @@ def banner():
 	print("%s      ##    ###     ######  "%(S))
 	print("%s##    ##   ## ##         ## "%(S))
 	print("%s##    ##  ##   ##  ##    ## "%(S))
-	print("%s ######  ##     ##  ######  "%(S))
-        print("")
+	print("%s ######  ##     ##  ######  \n\n"%(S))
 	print('''\33[1;97m[*] Creater  : Jishan Ahammed
 \33[1;97m[*] Version  : 0.0.1
 \33[1;97m[*] GitHub   : https://github.com/JISHAN76

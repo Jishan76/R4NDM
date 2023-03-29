@@ -52,11 +52,11 @@ def banner():
 	print("%s##    ##   ## ##         ## "%(S))
 	print("%s##    ##  ##   ##  ##    ## "%(S))
 	print("%s ######  ##     ##  ######  "%(S))
+        print("")
 	print('''\33[1;97m[*] Creater  : Jishan Ahammed
 \33[1;97m[*] Version  : 0.0.1
 \33[1;97m[*] GitHub   : https://github.com/JISHAN76
 \33[1;97m[*] TEAM     : JXS''')
-	xox('            %s》%s》%s》%sUIDCR3K%s《%s《%s《'%(M,H,B,H,B,H,M))
 	print("")
  
 def linex():
@@ -74,10 +74,10 @@ def result(OK,cp):
 def azimvau():
 	os.system('clear')
 	banner()
-	print(f' {H}[1] RANDOM NUMBER CRACK')
-	print(f' {K}[2] RANDOM UID CRACK')
-	print(f' {M}[B] BACK\n')
-	opt = input(f'{B} CHOOSE : {H}')
+	print(f' {S}[1] RANDOM NUMBER CRACK')
+	print(f' {S}[2] RANDOM UID CRACK')
+	print(f' {S}[B] BACK\n')
+	opt = input(f'{B} CHOOSE : {S}')
 	if opt =='1':
 		random_number()
 	elif opt =='2':

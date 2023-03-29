@@ -55,7 +55,7 @@ def banner():
 	print("%s ######  ##     ##  ######  "%(S))
 	print("")
 	print("%s╔══════════════════════════════════════════╗"%(S))
-	print("%s║%s  Author   : Jishan Ahammed                    %s║"%(S))
+	print("%s║%s  Author   : %sJishan Ahammed                    %s║"%(S))
 	print("%s║%s  Github   : https://github.com/JISHAN76  %s║"%(S))
 	print("%s║%s  Facebook : fb.me/JISHAN76       %s║"%(S))
 	print("%s║%s  Version  : %s1.0.0                          %s║"%(S))

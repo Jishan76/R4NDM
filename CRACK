@@ -111,9 +111,9 @@ def random_number():
 	user=[]
 	os.system('clear')
 	banner()
-	print(f"          {FM}PUT A FULL MOBILE NUMBER{N}\n         {FM}OF ANY COUNTRY AS YOU WISH{N}\n")
-	print(f" {M}FOR EXAMPLE : {Z}[{H}+880175803XXXX{Z}]\n")
-	fkode = input(f'{K} PUT NUMBER : {H}')
+	print(f"          {S}PUT A FULL MOBILE NUMBER{N}\n         {S}OF ANY COUNTRY AS YOU WISH{S}\n")
+	print(f" {M}FOR EXAMPLE : {S}[{S}+880175803XXXX{S}]\n")
+	fkode = input(f'{S} PUT NUMBER : {S}')
 	if len(fkode) < 10:
 		xox(f'\n{M} ERROR! MAYBE YOU PUT THE WRONG NUMBER ')
 		time.sleep(2)
@@ -124,8 +124,8 @@ def random_number():
 	for nmbr in range(20000):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
-	print(f"\n {M}EXAMPLE : {Z}[{H}6,7,8,9,10,11{Z}]\n")
-	psl = int(input(f" {B}PASS LENGHT : {H}"))
+	print(f"\n {S}EXAMPLE : {S}[{H}6,7,8,9,10,11{Z}]\n")
+	psl = int(input(f" {B}PASS LENGHT : {S}"))
 	with ThreadPool(max_workers=30) as zim:
 		os.system('clear')
 		banner()
